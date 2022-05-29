@@ -1,0 +1,18 @@
+server:
+ port : 8080
+encrypt:
+ key : ABCDEFGHIJKLMNOP
+spring:
+ security:
+  user:
+   name : atom
+   password : atom
+ cloud:
+  config:
+   server:
+    encrypt:
+      enabled : false
+    git:
+     uri : https://github.com/saikatHi6/spring-cloud-cred-config
+     search-paths:
+     - Cloud*
